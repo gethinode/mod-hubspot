@@ -47,10 +47,23 @@ This module supports the following parameters (see the section `params.modules` 
 | portal                    |         | The portal ID of the HubSpot account where you created the form. This is used to retrieve the form definition. |
 | region                    |         | The region of the portal where the form was created. This is used to retrieve the form definition. |
 
+## Content Security Policy
+
+HubSpot forms require several directives to be added to your Content Security Policy. See the [policy requirements][hubspot_csp] for more details. The following directives are required to enable correct form handling:
+
+| Policy            | Value                                                            |
+|-------------------|------------------------------------------------------------------|
+| script-src        | 'self' *.hsforms.net *.hs-scripts.com *.google.com *.gstatic.com |
+| connect-src       | 'self' *.hsforms.com *.hubspot.com |
+| frame-src         | 'self' *.google.com |
+| frame-ancestors   | 'self' *.google.com |
+| img-src           | 'self' data: *.hsforms.net *.hsforms.com |
+
 <!-- MARKDOWN LINKS -->
 [hugo]: https://gohugo.io
 [hinode_docs]: https://gethinode.com
 [hubspot]: https://hubspot.com
+[hubspot_csp]: https://knowledge.hubspot.com/domains-and-urls/ssl-and-domain-security-in-hubspot#content-security-policy
 [repository]: https://github.com/gethinode/hinode.git
 [repository_template]: https://github.com/gethinode/template.git
 [conventionalcommits]: https://www.conventionalcommits.org
