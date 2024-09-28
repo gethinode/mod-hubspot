@@ -44,9 +44,8 @@ This module supports the following parameters (see the section `params.modules` 
 
 | Setting                   | Default | Description |
 |---------------------------|---------|-------------|
-| region                    | na1     ||
-| portalId                  |         ||
-
+| portal                    |         | The portal ID of the HubSpot account where you created the form. This is used to retrieve the form definition. |
+| region                    |         | The region of the portal where the form was created. This is used to retrieve the form definition. |
 
 <!-- MARKDOWN LINKS -->
 [hugo]: https://gohugo.io
