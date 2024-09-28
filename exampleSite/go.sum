@@ -1,0 +1,4 @@
+github.com/gethinode/mod-hubspot v1.0.0 h1:JWpRhqMPubq6Lr11uS83mTq9FZ+H9w4b3b7gqpjp0zA=
+github.com/gethinode/mod-hubspot v1.0.0/go.mod h1:RlPiKSP2pS6X5KM0eqv4N4X9DTZ0ndpX2IiHNcxZ9J0=
+github.com/gethinode/mod-utils/v2 v2.8.1 h1:u7sFbgJ5sBEMYC/GwcMRyjRAd5NxTjBnbld5b0V5n98=
+github.com/gethinode/mod-utils/v2 v2.8.1/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
