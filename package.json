@@ -1,7 +1,7 @@
 {
-  "name": "@gethinode/mod-template",
+  "name": "@gethinode/mod-hubspot",
   "version": "0.0.0",
-  "description": "A template to define a Hugo module compatible with Hinode",
+  "description": "A Hugo module to add Hubspot to your Hinode site (work in progress)",
   "keywords": [
     "hugo",
     "module"
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gethinode/mod-template.git"
+    "url": "git+https://github.com/gethinode/mod-hubspot.git"
   },
   "author": "Mark Dumay",
   "license": "MIT",
@@ -41,13 +41,13 @@
     "@commitlint/config-conventional": "^19.5.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "commitizen": "^4.3.0",
+    "commitizen": "^4.3.1",
     "cpy-cli": "^5.0.0",
     "cz-conventional-changelog": "^3.3.0",
-    "hugo-bin": "^0.131.3",
+    "hugo-bin": "^0.132.0",
     "husky": "^9.1.6",
     "rimraf": "^6.0.1",
-    "semantic-release": "^24.1.1"
+    "semantic-release": "^24.1.2"
   },
   "hugo-bin": {
     "buildTags": "extended"
