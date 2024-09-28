@@ -1,6 +1,6 @@
 {
   "name": "@gethinode/mod-hubspot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Hugo module to add Hubspot to your Hinode site (work in progress)",
   "keywords": [
     "hugo",
