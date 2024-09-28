@@ -1,0 +1,50 @@
+<!-- 
+    Copyright © 2024 The Hinode Team / Mark Dumay. All rights reserved.
+    Use of this source code is governed by The MIT License (MIT) that can be found in the LICENSE file.
+    Visit gethinode.com/license for more details.
+-->
+
+{{ $error := false }}
+
+<!-- Initialize arguments -->
+{{ $args := partial "utilities/InitArgs.html" (dict "structure" "form" "args" .) }}
+{{ if $args.err }}
+    {{ partial "utilities/LogErr.html" (dict 
+        "partial" "partials/form.html" 
+        "msg" "Invalid arguments"
+        "details" $args.errmsg
+        "file" page.File
+    )}}
+    {{ $error = true }}
+{{ end }}
+
+<!-- Initialize local arguments -->
+{{ $portal := $args.portal | default site.Params.modules.hubspot.portal }}
+{{ $region := $args.region | default site.Params.modules.hubspot.region }}
+
+{{ if not $region }}
+    {{ partial "utilities/LogErr.html" (dict 
+        "partial" "partials/form.html" 
+        "msg" "Form is missing region argument"
+        "file" page.File
+    )}}
+    {{ $error = true }}
+{{ end }}
+
+{{ if not $portal }}
+    {{ partial "utilities/LogErr.html" (dict 
+        "partial" "partials/form.html" 
+        "msg" "Form is missing portal argument"
+        "file" page.File
+    )}}
+    {{ $error = true }}
+{{ end }}
+
+<!-- Main code -->
+{{ if not $error }}
+    <div class="form" id="form-{{ $args.id }}"
+        {{- with $args.id }} data-form-id="{{ . }}"{{ end -}}
+        {{- with $portal }} data-portal-id="{{ . }}"{{ end -}}
+        {{- with $region }} data-region="{{ . }}"{{ end -}}>
+    </div>
+{{ end }}

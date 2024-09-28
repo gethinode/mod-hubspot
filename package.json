@@ -1,7 +1,7 @@
 {
-  "name": "@gethinode/mod-template",
+  "name": "@gethinode/mod-hubspot",
   "version": "0.0.0",
-  "description": "A template to define a Hugo module compatible with Hinode",
+  "description": "A Hugo module to add Hubspot to your Hinode site (work in progress)",
   "keywords": [
     "hugo",
     "module"
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gethinode/mod-template.git"
+    "url": "git+https://github.com/gethinode/mod-hubspot.git"
   },
   "author": "Mark Dumay",
   "license": "MIT",
