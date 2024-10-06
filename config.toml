@@ -18,3 +18,19 @@
 [params.modules.hubspot]
   integration = "core"
   state = "async"
+
+[params.modules.hubspot.csp]
+  script-src = [
+    "*.hsforms.net",
+    "*.hs-scripts.com",
+    "*.google.com",
+    "*.gstatic.com"
+  ]
+  connect-src = [
+    "*.hsforms.com",
+    "*.hubspot.com"
+  ]
+  img-src = [
+    "*.hsforms.net",
+    "*.hsforms.com"
+  ]
