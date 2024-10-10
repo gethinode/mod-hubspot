@@ -34,3 +34,6 @@
     "*.hsforms.net",
     "*.hsforms.com"
   ]
+  frame-src = [
+    "*.google.com"
+  ]
