@@ -37,3 +37,6 @@
   frame-src = [
     "*.google.com"
   ]
+  style-src = [
+    "fonts.googleapis.com"
+  ]
