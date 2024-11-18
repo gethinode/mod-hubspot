@@ -35,8 +35,14 @@
     "*.hsforms.com"
   ]
   frame-src = [
-    "*.google.com"
+    "*.google.com",
+    "*.hsforms.net",
+    "*.hsforms.com"
   ]
   style-src = [
     "fonts.googleapis.com"
+  ]
+  form-action = [
+    "*.hsforms.net",
+    "*.hsforms.com"
   ]
