@@ -1,6 +1,6 @@
 {
   "name": "@gethinode/mod-hubspot",
-  "version": "1.1.3",
+  "version": "1.1.7",
   "description": "A Hugo module to add Hubspot to your Hinode site (work in progress)",
   "keywords": [
     "hugo",
@@ -37,17 +37,17 @@
   },
   "homepage": "https://gethinode.com",
   "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
-    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.3.1",
     "cpy-cli": "^5.0.0",
     "cz-conventional-changelog": "^3.3.0",
-    "hugo-bin": "^0.135.0",
-    "husky": "^9.1.6",
+    "hugo-bin": "^0.137.2",
+    "husky": "^9.1.7",
     "rimraf": "^6.0.1",
-    "semantic-release": "^24.2.0"
+    "semantic-release": "^24.2.1"
   },
   "hugo-bin": {
     "buildTags": "extended"
