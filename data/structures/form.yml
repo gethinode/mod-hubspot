@@ -1,25 +1,16 @@
 comment: >-
   Creates an embedded form hosted by an external provider such as HubSpot.
 arguments:
+  form-id:
+    optional: true
+    position: 0
+  portal:
+  region:
+  # deprecated arguments
   id:
     type: string
-    position: 0
-    optional: false
+    optional: true
     comment: >-
       The form's ID, which is used to retrieve the form definition.
-  portal:
-    type: int
-    optional: true
-    comment: >-
-      The portal ID of the HubSpot account where you created the form. This is
-      used to retrieve the form definition.
-  region:
-    type: select
-    optional: true
-    comment: >-
-      The region of the portal where the form was created. This is used to
-      retrieve the form definition.
-    options:
-      values:
-        - eu1
-        - na1
+    deprecated: v1.0.0
+    alternative: form-id
