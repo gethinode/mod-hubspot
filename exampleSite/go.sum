@@ -12,6 +12,8 @@ github.com/gethinode/mod-hubspot v1.1.7 h1:8kjvs6td9U0D5MBP1uF6+ER1oQT2Dwy+3ipDH
 github.com/gethinode/mod-hubspot v1.1.7/go.mod h1:bdEfWSnZfVIcErMHo9X9iFpPo/GfkdlJ459JBDqQgKo=
 github.com/gethinode/mod-hubspot v1.1.8 h1:JlHIrwMS+5FPPHI7togwd2V0AYQmrGyaac4Ybxs+tqs=
 github.com/gethinode/mod-hubspot v1.1.8/go.mod h1:bdEfWSnZfVIcErMHo9X9iFpPo/GfkdlJ459JBDqQgKo=
+github.com/gethinode/mod-hubspot/v2 v2.0.0 h1:WNPxyI0Rhu+Y2QClX8nSQnZrNNOC0cxoRKkLohCw3g8=
+github.com/gethinode/mod-hubspot/v2 v2.0.0/go.mod h1:a4IZhVv3W2mRJzylL7ViCpcrZOn6LjIUNRlxnIUdt5I=
 github.com/gethinode/mod-utils/v2 v2.8.1 h1:u7sFbgJ5sBEMYC/GwcMRyjRAd5NxTjBnbld5b0V5n98=
 github.com/gethinode/mod-utils/v2 v2.8.1/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
 github.com/gethinode/mod-utils/v2 v2.8.2 h1:rKndAMmRBSO5Cgoa/2CvF5XchDSvLvd4TYAbfbbQVhE=
@@ -30,3 +32,6 @@ github.com/gethinode/mod-utils/v2 v2.10.0 h1:2GN6f3wcu/TlbzPD6DFlWyx+KomXz6LnBv7
 github.com/gethinode/mod-utils/v2 v2.10.0/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
 github.com/gethinode/mod-utils/v4 v4.4.0 h1:IhhJDLqXCdYvrjM6kUR10wlg0kyZrY94f7EuGMj8NN0=
 github.com/gethinode/mod-utils/v4 v4.4.0/go.mod h1:bYmvRdAo4ICy5MpSGafDvO4p5bTDpsDKFCPL3bH0mN4=
+github.com/gethinode/mod-utils/v4 v4.5.0/go.mod h1:bYmvRdAo4ICy5MpSGafDvO4p5bTDpsDKFCPL3bH0mN4=
+github.com/gethinode/mod-utils/v4 v4.5.1 h1:VKmqi6+oC93noHUJ6HvFlelglHT/9+kXQjpJs7VtWko=
+github.com/gethinode/mod-utils/v4 v4.5.1/go.mod h1:bYmvRdAo4ICy5MpSGafDvO4p5bTDpsDKFCPL3bH0mN4=
