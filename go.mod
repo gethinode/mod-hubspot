@@ -2,4 +2,4 @@ module github.com/gethinode/mod-hubspot/v2
 
 go 1.19
 
-require github.com/gethinode/mod-utils/v4 v4.8.4 // indirect
+require github.com/gethinode/mod-utils/v4 v4.9.2 // indirect
