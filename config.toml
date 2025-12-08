@@ -32,7 +32,8 @@
   ]
   img-src = [
     "*.hsforms.net",
-    "*.hsforms.com"
+    "*.hsforms.com",
+    "*.hubspot.com"
   ]
   frame-src = [
     "*.google.com",
