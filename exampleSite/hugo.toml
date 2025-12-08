@@ -26,4 +26,4 @@ title = 'Test site for mod-hubspot'
     source = "layouts"
     target = "layouts"
   [[module.imports]]
-    path = "github.com/gethinode/mod-utils/v4"
+    path = "github.com/gethinode/mod-utils/v5"
