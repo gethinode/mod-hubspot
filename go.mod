@@ -1,4 +1,4 @@
-module github.com/gethinode/mod-hubspot/v2
+module github.com/gethinode/mod-hubspot/v3
 
 go 1.19
 
