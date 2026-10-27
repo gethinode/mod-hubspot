@@ -22,6 +22,8 @@ github.com/gethinode/mod-hubspot/v4 v4.0.1 h1:6A08jilkCozGXW0hZwA+no9IOypeK7j1gr
 github.com/gethinode/mod-hubspot/v4 v4.0.1/go.mod h1:sKLhnuinHo2jOTdA043zQQBStEjc143ixcxB5ZPNcas=
 github.com/gethinode/mod-hubspot/v4 v4.0.2 h1:g4vZ1hrQ1SQnaRmGgQLyzNOYqUpdWRieq5uwq/bOMC4=
 github.com/gethinode/mod-hubspot/v4 v4.0.2/go.mod h1:dKNY72hn6GqDaAh8mC6GtIBbIqrhhbktCqcx5pdOsGg=
+github.com/gethinode/mod-hubspot/v4 v4.0.3 h1:lL43+SJp3X6TMLSi5zQg6+4idyivs2N/oQ0rGm/S+io=
+github.com/gethinode/mod-hubspot/v4 v4.0.3/go.mod h1:KmLBb/JhPBfNqeg2fZHZn7TwEccrMJXl0N9WmmuGwF4=
 github.com/gethinode/mod-utils/v2 v2.8.1 h1:u7sFbgJ5sBEMYC/GwcMRyjRAd5NxTjBnbld5b0V5n98=
 github.com/gethinode/mod-utils/v2 v2.8.1/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
 github.com/gethinode/mod-utils/v2 v2.8.2 h1:rKndAMmRBSO5Cgoa/2CvF5XchDSvLvd4TYAbfbbQVhE=
